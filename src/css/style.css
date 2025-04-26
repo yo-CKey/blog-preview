@@ -1,0 +1,82 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 270px;
+    border-radius: 10px;
+    border: 1px solid ;
+    box-shadow: 6px 6px  rgba(0,0,0.46);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info span{
+    margin: 10px 0;
+}
+
+.titulo{
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.titulo:hover{
+    font-weight: 900;
+    color: hsl(47, 88%, 63%);
+}
+
+.desc{
+    font-size: 12px;
+    font-weight: 300;
+    margin: 15px 0;
+}
+
+.imagem{
+    max-width: 280px;
+    border-radius: 7px;
+}
+
+.learning{
+    font-size: 10px;
+    font-weight: 800;
+    margin-top: 15px;
+    border-radius: 3px;
+    padding: 2px 5px;
+    background-color: hsl(47, 88%, 63%);
+    height: 20px;
+    width: 60px;
+}
+
+.info span{
+    font-size: 11px;
+}
+
+.greg{
+    display: flex;
+}
+
+.greg .avatar{
+    width: 20px;
+    height: 20px;
+}
+
+.greg .name{
+    font-size: 10px;
+    font-weight: 900;
+    margin: 2.10px 10px;
+}
